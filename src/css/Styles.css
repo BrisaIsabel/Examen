@@ -1,0 +1,149 @@
+.form-oitic .card {
+    min-width: 100%;
+}
+.form-oitic .card form {
+    margin-top: 0rem;
+}
+.form-oitic .card .p-field {
+    margin-bottom: 0.5rem;
+}
+
+.alerta {
+    border-style: dashed;
+    border-width: thin;
+    padding: 5px;
+    border-color: #881518;
+    margin: 5px;
+    background-color: rgb(248, 231, 237);
+}
+
+@media screen and (max-width: 960px) {
+    .form-oitic .card {
+        width: 80%;
+    }
+}
+@media screen and (max-width: 820px) {
+    .form-oitic .card .p-field {
+        margin-bottom: 2rem;
+    }
+    .form-oitic .card form {
+        margin-top: 1.5rem;
+    }
+}
+@media screen and (max-width: 640px) {
+    .form-oitic .card {
+        width: 100%;
+        min-width: 0;
+    }
+}
+
+.padding-top {
+    padding-top: 15px;
+}
+
+.padding-bottom {
+    padding-bottom: 15px;
+}
+
+.slide-enter,
+.slide-exit {
+    transition: transform 1000ms ease-out;
+}
+
+.slide-enter {
+    transform: translateX(100%);
+}
+
+.slide-enter.slide-enter-active {
+    transform: translateX(0%);
+}
+
+.slide-exit {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    transform: translateX(0%);
+}
+
+.slide-exit-active {
+    transform: translateX(-100%);
+}
+
+.multiselect-pj .p-multiselect {
+    min-width: 15rem;
+}
+
+.multiselect-pj .multiselect-custom .p-multiselect-label:not(.p-placeholder):not(.p-multiselect-items-label) {
+    padding-top: 0.25rem;
+    padding-bottom: 0.25rem;
+}
+
+.multiselect-pj .multiselect-custom .country-item-value {
+    padding: 0.25rem 0.5rem;
+    border-radius: 3px;
+    display: inline-flex;
+    margin-right: 0.5rem;
+    background-color: var(--primary-color);
+    color: var(--primary-color-text);
+}
+
+.multiselect-pj .multiselect-custom .country-item-value img.flag {
+    width: 17px;
+}
+
+@media screen and (max-width: 960px) {
+    .form-demo .card {
+        width: 80%;
+    }
+}
+@media screen and (max-width: 640px) {
+    .form-demo .card {
+        width: 100%;
+        min-width: 0;
+    }
+}
+
+.imagen {
+    width: 10%;
+    height: 50%;
+}
+
+.row {
+    margin: 0 !important;
+}
+
+.row.row-cols-1.row-cols-sm-2.espacing > * {
+    max-width: 45%;
+}
+
+.row.row-cols-1.row-cols-sm-2.espacing > .p-inputgroup {
+    margin: auto 9px 9px;
+}
+@media screen and (max-width: 449px) {
+    .row.row-cols-1.row-cols-sm-2.espacing > * {
+        max-width: 100%;
+    }
+}
+
+.dialog {
+    height: auto;
+    width: 80%;
+    font-size: 15px;
+    font-weight: 200;
+    text-align: center;
+}
+
+.ajustar-opciones-dropdown {
+    white-space: pre-wrap;
+    word-wrap: break-word;
+    max-width: 70%;
+    margin: auto;
+    
+}
+
+.ajustar-opciones-dropdown2 {
+    white-space: pre-wrap;
+    word-wrap: break-word;
+    max-width: 30%;
+}
